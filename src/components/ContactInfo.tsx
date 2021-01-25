@@ -4,10 +4,10 @@ interface Props {
     
 }
 
-export default function CheckoutPage({}: Props): ReactElement {
+export default function ContactInfo({}: Props): ReactElement {
     return (
         <div>
-            asenfanefa
+            ContactInfo
         </div>
     )
 }
