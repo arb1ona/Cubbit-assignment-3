@@ -3,67 +3,12 @@ import BillingInfo from './BillingInfo';
 import ContactInfo from "./ContactInfo";
 import PaymentInfo from './PaymentInfo';
 import ShippingInfo from './ShippingInfo';
-import styled from 'styled-components'
-
+import {InfoWrapper, Wrapper, ConditionWrapper, Checkbox, ButtonWrapper, ButtonBack, ButtonFront} from './StyleDiv'
 
 interface Props {
     
 }
 
-const InfoWrapper = styled.div`
-  border: 2px solid #ECECEC;
-  box-sizing: border-box;
-  border-radius: 5px;
-`;
-const Wrapper = styled.div`
-  h3 {font-weight: 900 }
-  text-align: left;
-  width: 560px;
-`;
-
-const ConditionWrapper = styled.div`
-  margin: 10px 0;
-  display: flex;
-  flex-direction: row;
-`;
-
-const Checkbox = styled.input`
-display: block;
-margin-right: 10px;
-outline: none;
-`;
-
-const ButtonWrapper = styled.div`
-margin-top: 15px;
-display: flex;
-text-align: right;
-place-content: space-between;
-`;
-
-const ButtonBack = styled.button`
-border: 0;
-height: 40px;
-color:#009EFF;
-background-color: #ffffff;
-border: 1px solid #009EFF;
-  border-radius: 2px;
-  cursor: pointer;
-  width:170px;
-  line-height: 1;
-  box-shadow: 0px 10px 20px rgba(0, 158, 255, 0.1);
-  outline: none;`;
-
-  const ButtonFront = styled.button`
-border: 0;
-background-color: #009EFF;
-height: 40px;
-color:#ffffff;
-  border-radius: 2px;
-  cursor: pointer;
-  width:170px;
-  line-height: 1;
-  box-shadow: 0px 10px 20px rgba(0, 158, 255, 0.1);
-  outline: none;`
 
 export default function CheckoutPage({}: Props): ReactElement {
     return <Wrapper>

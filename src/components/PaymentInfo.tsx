@@ -1,47 +1,8 @@
 import React, { ReactElement } from 'react'
-import styled from "styled-components"
+import {PaymentHeader, FormGroup, Input, Label, RowWrapper} from './StyleDiv'
+
 interface Props {
-    
 }
-const PaymentHeader = styled.div`
-  background: #F4F4F4;
-  padding: 20px;
-  display: flex;
-  place-content: space-between;
-`;
-
-const FormGroup = styled.div`
-  display: block;
-  width: auto;
-  margin: 15px 50px;
-`;
-
-const Label = styled.label`
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 19px;
-  display: flex;
-  align-items: flex-start;
-  color: #363636;
-`;
-
-const Input = styled.input`
-  display: block;
-  margin-top: 10px;
-  box-sizing: border-box;
-  height: 50px;
-  width: 100%;
-  border: 1px solid #E0E0E0;
-  border-radius: 5px;
-  outline: none;
-`;
-
-
- const RowWrapper = styled.div`
-  display: flex;
-  place-content: space-between;
-`;
 
 export default function PaymentInfo({}: Props): ReactElement {
     return <div>

@@ -1,23 +1,8 @@
 import React, { ReactElement } from 'react'
-import styled from "styled-components"
+import {FormGroup2, ColWrapper} from './StyleDiv'
 
-interface Props {
-    
+interface Props {    
 }
-const FormGroup2 = styled.div`
-  padding: 10px 20px
-`;
-
-const ColWrapper = styled.div`
-margin: 15px 0;
-  display: flex;
-  place-content: space-between;
-  flex-direction: column;
-
-  div {
-    margin: 10px 0;
-  }
-`;
 
 export default function BillingInfo({}: Props): ReactElement {
     return <div>
