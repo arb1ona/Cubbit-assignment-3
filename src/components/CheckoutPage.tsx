@@ -5,10 +5,8 @@ import PaymentInfo from './PaymentInfo';
 import ShippingInfo from './ShippingInfo';
 import {InfoWrapper, Wrapper, ConditionWrapper, Checkbox, ButtonWrapper, ButtonBack, ButtonFront} from './StyleDiv'
 
-interface Props {
-    
+interface Props {    
 }
-
 
 export default function CheckoutPage({}: Props): ReactElement {
     return <Wrapper>
